@@ -1,0 +1,141 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body{
+  background-color: rgba(6,14,37,1);
+  font-family: 'Inter', sans-serif;
+}
+
+.letter-spacing-arrows{
+  letter-spacing: -.2rem;
+}
+.headerh{
+  height: 80px;
+}
+.mtop-4{
+  margin-top: -4px;
+}
+.green-border-custom{
+  border-color: #a9e94a;
+}
+.svgfont{
+  font-size: 1.5rem;
+}
+.largesvgfont{
+  font-size: 3rem;
+}
+.bg-blue-partially{
+  background: linear-gradient(180deg,#060e25,#060e25 65%,#f3f4f6 0,#f3f4f6);
+}
+.bg-blue-quarterly{
+  background: linear-gradient(180deg,#060e25,#060e25 85%,#f3f4f6 0,#f3f4f6); 
+}
+.text-accent{
+  color: #a9e94a;
+}
+.border-accent{
+  border-color: #a9e94a;
+}
+.h-text-accent:hover{
+  color: #a9e94a;
+}
+.f-text-accent:focus svg{
+  color: #a9e94a;
+}
+.feature-card{
+  box-shadow: 0 64px 64px -48px rgb(31 47 70 / 12%);
+  height: 100%;
+  border-radius: 20px;
+  color: rgb(31, 38, 59);
+  background-color: rgba(255,255,255,1);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  transition-duration: .2s;
+}
+.feature-card:hover{
+  background-color: rgba(31,38,59,1);
+  color: rgba(255,255,255,1);
+}
+.feature-card:hover .icon-rectangle{
+  background-color: #a9e94a;
+}
+.icon-rectangle{
+  background-color: rgba(255,255,255,1);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  transition-duration: .2s;
+  width: 108px;
+  height: 108px;
+  box-shadow: 0 12px 56px rgb(31 47 70 / 12%);
+  border-radius: 24px;
+}
+.card{
+  box-shadow: 0 64px 64px -48px rgb(31 47 70 / 12%);
+}
+.min-height-238{
+  min-height: 238px;
+}
+.text-xxs{
+  font-size: .625rem;
+}
+.txt-blue{
+  color: rgba( 31, 38, 59, .9);
+}
+.back-blue{
+  background-color: rgba(31, 38, 59, .9);
+}
+.background-blue{
+  background-color: rgba(31,38,59,1);
+}
+.leavesgreen{
+  background-color: #608828;
+}
+.leavesgreen1{
+  background-color: #90fa1a;
+}
+.button-pad{
+  padding: .7rem 2rem;
+}
+.text-45xl{
+  font-size: 2.5rem;
+}
+.sidenav-bg{
+  background-color: rgb(5, 15, 46);;
+}
